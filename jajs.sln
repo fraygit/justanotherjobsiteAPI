@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jajs.MongoData", "webAppTemplate.MongoData\jajs.MongoData.csproj", "{919BF88A-0CCA-4220-90D0-4624F23AD8FD}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "website", "http://localhost:61447", "{34EE81CB-AB44-4036-BB7F-D8B7AAD4DBFB}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_61447"
+		Debug.AspNetCompiler.PhysicalPath = "website\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61447\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_61447"
+		Release.AspNetCompiler.PhysicalPath = "website\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61447\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "website\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jajs.API", "webAPI\jajs.API.csproj", "{5602D80D-10BA-4258-A2F9-3386AA8629CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{62858EAD-70D2-4B4D-93CB-6D30D6CC2834}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkoEmailSender", "ParkoEmailSender\ParkoEmailSender.csproj", "{132B1A1F-C298-420A-936A-65C30859755A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C72CAB50-FDD4-4415-9BB1-954502FE076D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{919BF88A-0CCA-4220-90D0-4624F23AD8FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{919BF88A-0CCA-4220-90D0-4624F23AD8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{919BF88A-0CCA-4220-90D0-4624F23AD8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{919BF88A-0CCA-4220-90D0-4624F23AD8FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34EE81CB-AB44-4036-BB7F-D8B7AAD4DBFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34EE81CB-AB44-4036-BB7F-D8B7AAD4DBFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34EE81CB-AB44-4036-BB7F-D8B7AAD4DBFB}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{34EE81CB-AB44-4036-BB7F-D8B7AAD4DBFB}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{5602D80D-10BA-4258-A2F9-3386AA8629CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5602D80D-10BA-4258-A2F9-3386AA8629CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5602D80D-10BA-4258-A2F9-3386AA8629CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5602D80D-10BA-4258-A2F9-3386AA8629CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{132B1A1F-C298-420A-936A-65C30859755A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132B1A1F-C298-420A-936A-65C30859755A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132B1A1F-C298-420A-936A-65C30859755A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132B1A1F-C298-420A-936A-65C30859755A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
