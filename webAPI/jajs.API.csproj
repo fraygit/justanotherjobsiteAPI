@@ -133,6 +133,7 @@
     <Compile Include="Controllers\ParkingSpaceController.cs" />
     <Compile Include="Controllers\ParkingSpaceImageController.cs" />
     <Compile Include="Controllers\ParkNowController.cs" />
+    <Compile Include="Controllers\ProfileController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
