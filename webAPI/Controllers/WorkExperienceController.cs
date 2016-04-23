@@ -81,6 +81,31 @@ namespace jajs.API.Controllers
             });
         }
 
+        [EnableCors(origins: "*", headers: "*", methods: "*")]
+        [HttpDelete]
+        public async Task<bool> Update(string id, string token)
+        {
+            if (await tokenRepository.IsTokenValid(token))
+            {
+                var workexperience = await repository.Get(id);
+                if (workexperience != null)
+                {
+                    await repository.Delete(id);
+                    return true;
+                }
+                throw new HttpResponseException(new HttpResponseMessage(HttpStatusCode.Forbidden)
+                {
+                    Content = new StringContent("Unable to retrieve profile."),
+                    ReasonPhrase = "User does not exist."
+                });
+            }
+            throw new HttpResponseException(new HttpResponseMessage(HttpStatusCode.Forbidden)
+            {
+                Content = new StringContent("Invalid token"),
+                ReasonPhrase = "Invalid token. Please login."
+            });
+        }
+
         [ActionName("GetAll")]
         [EnableCors(origins: "*", headers: "*", methods: "*")]
         [HttpGet]
