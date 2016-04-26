@@ -13,6 +13,8 @@ namespace jajs.MongoData.Model
         public string CompanyName { get; set; }
         public string JobTitle { get; set; }
         public string JobDescription { get; set; }
+        public string City { get; set; }
+        public string Country { get; set; }
         public DateTime DateStart { get; set; }
         public DateTime DateEnd { get; set; }
         public bool IsCurrent { get; set; }
