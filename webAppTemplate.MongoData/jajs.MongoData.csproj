@@ -57,6 +57,7 @@
     <Compile Include="Interface\IAdminUserTokenRepository.cs" />
     <Compile Include="Interface\IBookingRepository.cs" />
     <Compile Include="Interface\ICarRepository.cs" />
+    <Compile Include="Interface\IEducationRepository.cs" />
     <Compile Include="Interface\IEmailErrorRepository.cs" />
     <Compile Include="Interface\IEmailNotificationRepository.cs" />
     <Compile Include="Interface\IParkingImageRepository.cs" />
@@ -68,6 +69,7 @@
     <Compile Include="Model\AdminUserToken.cs" />
     <Compile Include="Model\Booking.cs" />
     <Compile Include="Model\Car.cs" />
+    <Compile Include="Model\Education.cs" />
     <Compile Include="Model\EmailError.cs" />
     <Compile Include="Model\EmailNotification.cs" />
     <Compile Include="Model\ParkingImage.cs" />
@@ -80,6 +82,7 @@
     <Compile Include="Repository\AdminUserTokenRepository.cs" />
     <Compile Include="Repository\BookingRepository.cs" />
     <Compile Include="Repository\CarRepository.cs" />
+    <Compile Include="Repository\EducationRepository.cs" />
     <Compile Include="Repository\EmailErrorRepository.cs" />
     <Compile Include="Repository\EmailNotificationRepository.cs" />
     <Compile Include="Repository\ParkingImageRepository.cs" />

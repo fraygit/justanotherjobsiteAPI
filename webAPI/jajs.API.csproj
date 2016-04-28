@@ -129,6 +129,7 @@
     <Compile Include="Controllers\AdminUserController.cs" />
     <Compile Include="Controllers\BookingController.cs" />
     <Compile Include="Controllers\CarController.cs" />
+    <Compile Include="Controllers\EducationController.cs" />
     <Compile Include="Controllers\ParkingDetailsController.cs" />
     <Compile Include="Controllers\ParkingSpaceController.cs" />
     <Compile Include="Controllers\ParkingSpaceImageController.cs" />

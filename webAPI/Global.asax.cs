@@ -24,6 +24,7 @@ namespace jajs.API
             container.Register<IAdminUserRepository, AdminUserRepository>(Lifestyle.Scoped);
             container.Register<IAdminUserTokenRepository, AdminUserTokenRepository>(Lifestyle.Scoped);
             container.Register<IWorkExperienceRepository, WorkExperienceRepository>(Lifestyle.Scoped);
+            container.Register<IEducationRepository, EducationRepository>(Lifestyle.Scoped);
 
             container.RegisterWebApiControllers(GlobalConfiguration.Configuration);
 
